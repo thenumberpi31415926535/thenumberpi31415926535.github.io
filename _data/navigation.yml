@@ -8,3 +8,5 @@
   link: /staff.html
 - name: Contact
   link: /contact.html
+- name: RSS
+  link: /feed.xml
