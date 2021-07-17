@@ -1,12 +1,12 @@
-- name: Blog
-  link: /blog.html
-- name: Staff
-  link: /staff.html
 - name: Home
   link: /
 - name: About
   link: /about.html
-- name: Contact
-  link: /contact.html
-- name: RSS
-  link: /feed.xml
+- name: Blog
+  link: /blog.html
+- name: Events
+  link: /events.html
+- name: Staff
+  link: /staff.html
+- name: Contacts
+  link: /contacts.html
