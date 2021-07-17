@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";\r\n",
-		".current {\r\n  color: green;\r\n}\r\n"
+		".current {\r\n  color: green;\r\n}\r\n.dev\r\n{\r\n  color: red;\r\n}\r\n.prod\r\n{\r\n  color: white;\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb;;AACD,AAAA,IAAI,CACJ,EACE,KAAK,EAAE,GAAG,GACX;;AACD,AAAA,KAAK,CACL,EACE,KAAK,EAAE,KAAK,GACb"
 }
