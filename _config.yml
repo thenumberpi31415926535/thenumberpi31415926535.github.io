@@ -1,6 +1,17 @@
 # _config.yml
 
-title: "3.1415926535"
+# Setup
+title:               "Pi"
+tagline:             'Minimal version of a blog'
+description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
+
+# About/contact
+author:
+  name:              "Pi 3.1415926535.."
+  url:               "https://discord.gg/vE7QUXGDnS"
+  email:             "kolinchang.tw@gmail.com"
+   
+
 collections:
   authors:
     output: true

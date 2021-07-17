@@ -1,19 +1,34 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    {% feed_meta %}
-    {% seo %}
-  </head>
+
+  {% include head.html %}
+
   <body>
-{% if jekyll.environment == "production" %}
-<div class="prod"></div>
-{% else %}
-<h1 class="dev">DEV</h1>
-{% endif %}
-    {% include navigation.html %}
-    {{ content }}
+        <!--
+            Environment flag
+        -->
+        {% if jekyll.environment == "production" %}
+        <div class="prod"></div>
+        {% else %}
+        <h1 class="dev">DEV</h1>
+        {% endif %}
+
+    <div>
+      <header class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">{{ site.title | newline_to_br }}</a>
+            <br><small>{{ site.tagline }}</small>
+          </h3>
+        </div>
+      </header>
+
+      <main class="container content" id="main">
+        {% include navigation.html %}
+      </main>
+      <main class="container content" id="main">
+        {{ content }}
+      </main>
+    </div>
   </body>
 </html>
