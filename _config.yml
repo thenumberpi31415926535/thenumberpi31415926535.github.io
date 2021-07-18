@@ -2,14 +2,16 @@
 
 # Setup
 title:               "Pi"
-tagline:             'Minimal version of a blog'
+tagline:             'Minimal version of a blog.'
 
 # About/contact
 author:
-  name:              "Pi 3.1415926535.."
-  url:               "https://discord.gg/vE7QUXGDnS"
-  email:             "kolinchang.tw@gmail.com"
-   
+  name:             "3.1415926535.., aka Pi"
+  discord:          "https://discord.gg/vE7QUXGDnS"
+  email:            "kolinchang.tw@gmail.com"
+  piLink:           "https://stuff.mit.edu/afs/sipb/contrib/pi/" 
+  pi:               "3.1415926535.."
+  onec:             "https://hissing-panama-209.notion.site/Online-English-Learning-Community-ONEC-6b8b9b3050f44fd6be938d1c5224e9dc"
 
 collections:
   authors:

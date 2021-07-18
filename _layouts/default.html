@@ -18,7 +18,8 @@
         <div class="container">
           <h3 class="masthead-title">
             <a href="/" title="Home">{{ site.title | newline_to_br }}</a>
-            <br><small>{{ site.tagline }}</small>
+            <br><small>{% if page.tagline %}{{ page.tagline }}{% else %}{{
+                site.tagline }}{% endif %}</small>
           </h3>
         </div>
       </header>

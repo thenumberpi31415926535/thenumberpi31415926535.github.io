@@ -3,5 +3,4 @@ title: About
 ---
 # About page
 
-This page tells you a little bit about me.
-
+This is an personal blog for {{ site.author.name }}.

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/authors/3.14159265358.html</loc>
-<lastmod>2021-07-18T01:13:03+08:00</lastmod>
-</url>
-<url>
-<loc>/authors/Pi.html</loc>
-<lastmod>2021-07-18T01:13:03+08:00</lastmod>
+<loc>/authors/3.1415926535.html</loc>
+<lastmod>2021-07-18T15:07:47+08:00</lastmod>
 </url>
 <url>
 <loc>/2018/08/20/bananas.html</loc>
@@ -28,6 +24,6 @@
 <loc>/</loc>
 </url>
 <url>
-<loc>/staff.html</loc>
+<loc>/people.html</loc>
 </url>
 </urlset>
