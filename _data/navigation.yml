@@ -4,9 +4,9 @@
   link: /about.html
 - name: Blog
   link: /blog.html
-- name: Events
-  link: /events.html
 - name: People
   link: /people.html
+- name: Events
+  link: /events.html
 - name: Contacts
   link: /contacts.html
