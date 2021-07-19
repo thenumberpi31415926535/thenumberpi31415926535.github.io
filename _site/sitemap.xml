@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/authors/3.1415926535.html</loc>
-<lastmod>2021-07-18T18:42:41+08:00</lastmod>
+<lastmod>2021-07-19T16:04:46+08:00</lastmod>
 </url>
 <url>
 <loc>/2021/07/15/Host-hangout.html</loc>
@@ -17,20 +17,14 @@
 <lastmod>2021-07-18T00:00:00+08:00</lastmod>
 </url>
 <url>
-<loc>/host/talk/2021/07/18/not-having-to-prep.html</loc>
+<loc>/sessions/2021-07-18-how-does-social-media-impact-us.html</loc>
 <lastmod>2021-07-18T00:00:00+08:00</lastmod>
-</url>
-<url>
-<loc>/about.html</loc>
 </url>
 <url>
 <loc>/blog.html</loc>
 </url>
 <url>
 <loc>/categories.html</loc>
-</url>
-<url>
-<loc>/contacts.html</loc>
 </url>
 <url>
 <loc>/events.html</loc>
@@ -40,5 +34,8 @@
 </url>
 <url>
 <loc>/people.html</loc>
+</url>
+<url>
+<loc>/sessions.html</loc>
 </url>
 </urlset>

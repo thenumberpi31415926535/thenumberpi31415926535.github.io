@@ -1,12 +1,10 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
 - name: Blog
   link: /blog.html
+- name: Sessions
+  link: /sessions.html
 - name: People
   link: /people.html
 - name: Events
   link: /events.html
-- name: Contacts
-  link: /contacts.html

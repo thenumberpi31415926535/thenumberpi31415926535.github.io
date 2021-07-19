@@ -1,0 +1,43 @@
+---
+title: Sessions
+---
+<div>
+    We aim to create an supportive and encouraging English environment in a
+    casual setting.
+</div>
+<br>
+</br>
+<div>
+    Below is a listing of online English speaking sessions for people who are
+    using English as a second language.
+    
+    We use a <a href="{{ site.author.discord }}">Discord</a> server as our
+    online community.  To join the server you will need to:
+    <ol>
+        <li>
+            Verify your Email with Discord.
+        </li>
+        <li>
+            Agree and abide to the rules on the server.
+        </li>
+        <li>
+            Claim roles to indicate your interest and level of participation in the #roles channel.
+        </li>
+        <li>
+            Sign up for events you are interested in #announcements.
+        </li>
+        <li>
+            Seek help in #general if you have any issues.
+        </li>
+
+    </ol>
+</div>
+<h1 class="TitleSubText">Latest Sessions</h1> 
+<ul>
+  {% for session in site.sessions %}
+    <li>
+      <h2><a href="{{ session.url }}">{{ session.topic }}</a></h2>
+      {{ session.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

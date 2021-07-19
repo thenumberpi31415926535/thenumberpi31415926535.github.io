@@ -16,6 +16,9 @@ author:
 collections:
   authors:
     output: true
+  sessions:
+    output: true
+
 
 defaults:
   - scope:
@@ -28,6 +31,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "sessions"
+    values:
+      layout: "session"
   - scope:
       path: ""
     values:
