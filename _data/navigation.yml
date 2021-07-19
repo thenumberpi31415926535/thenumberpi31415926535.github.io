@@ -6,5 +6,5 @@
   link: /sessions.html
 - name: People
   link: /people.html
-- name: Events
-  link: /events.html
+- name: Calendar
+  link: /calendar.html
