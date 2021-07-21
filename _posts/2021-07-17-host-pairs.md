@@ -1,6 +1,10 @@
 ---
 author: Pi
+title: more host the merrier
 ---
+It is exciting to see host pairs.
 
 Uya and Milo has formed partnership to host on Friday, 30 July, 2021.  Judy and
 Ive are also pairing up to host a session.
+
+
