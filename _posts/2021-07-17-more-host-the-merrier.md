@@ -1,6 +1,5 @@
 ---
 author: Pi
-title: more host the merrier
 ---
 It is exciting to see host pairs.
 
