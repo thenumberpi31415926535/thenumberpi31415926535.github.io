@@ -21,7 +21,7 @@ To answer some of the questions you may have about Discord.
 [Table of Contents](#table-of-contents)
 
 1. Download Discord app on your phone or PC.  If you are using broswer, ensure you have allowed the webiste to use your microphone, if you are not sure you can always download the PC app.
-1. Join Pi's Discord server: {{ site.author.discord }}
+1. Join Pi's Discord server: [{{ site.author.discord }}]({{ site.author.discord }})
 1. Create a discord account using your email or phone number.
 1. Verify your email account by checking your email and look for an email from
    Discord regarding your account creation, check your junk mail if you
