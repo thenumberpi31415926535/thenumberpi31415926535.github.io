@@ -11,6 +11,7 @@ To answer some of the questions you may have about Discord.
 
 
 * [How to join Pi's Discord server](#how-to-join-pis-discord-server)
+* [How to sign up for events?](#how-to-sign-up-for-events)
 * [Check your audio and mic settings](#check-your-audio-and-mic-settings)
 * [How to adjust the volume of a user or a bot in a voice channel](#how-to-adjust-the-volume-of-a-user-or-a-bot-in-a-voice-channel)
 
@@ -31,6 +32,19 @@ can not find it in your inbox.
 
 ![Phone](/assets/Discord-phone-join-server.gif)
 
+
+***
+## How to sign up for events? ##
+[Table of Contents](#table-of-contents)
+
+1. Navigate to #annonucements channel in Discord.  Swipe from left to right to
+   get to channel list.
+1. Locate the event you wish to sign up.
+1. Interact to the green check at the bottom of the message.
+1. Verify if you are listed under attendees.
+
+Sign up for events on a phone
+![Phone](/assets/Discord-phone-signup.gif)
 
 ***
 ## Check your audio and mic settings ##
