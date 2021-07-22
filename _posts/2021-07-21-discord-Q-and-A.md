@@ -11,8 +11,9 @@ To answer some of the questions you may have about Discord.
 
 
 * [How to join Pi's Discord server](#how-to-join-pis-discord-server)
-* [How to adjust the volume of a user or a bot in voice channel](#how-to-adjust-the-volume-of-a-user-or-a-bot-in-voice-channel)
+* [How to adjust the volume of a user or a bot in a voice channel](#how-to-adjust-the-volume-of-a-user-or-a-bot-in-a-voice-channel)
 * [Check your audio settings](#check-your-audio-settings)
+* [Check your audio and mic settings](#check-your-audio-and-mic-settings)
 
 
 
@@ -33,19 +34,25 @@ can not find it in your inbox.
 
 
 ***
-## How to adjust the volume of a user or a bot in voice channel ##
+## How to adjust the volume of a user or a bot in a voice channel ##
 [Table of Contents](#table-of-contents)
 
-Phone: Tap on the user to bring up the setting.
+1. Locate user in the voice channel that you wish to adjust.
+2. *Tap* on the user if you are using a phone, *right click* (ctrl + click on Mac,
+   double tap on trackpad for laptops, etc) when using a PC to bring up menu for the user.
+1. Drag the volume slider to adjust volume.
 
+User Menu on a PC
+![PC](/assets/Discord-PC-Background-Music.png)
+User Menu on a phone
+![PC](/assets/Discord-PC-Background-Music.png)
 ![Phone](/assets/Discord-phone-background-music.gif)
 
-PC: Right click (control click on Mac, double click on a laptop, etc) on the user in your voice channel. 
 
-![PC](/assets/Discord-PC-Background-Music.png)
+
 
 ***
-## Check your audio settings ##
+## Check your audio and mic settings ##
 [Table of Contents](#table-of-contents)
 
 1. Go to your *USER SETTINGS* and location *Voice & Video* under *APP SETTINGS* on
