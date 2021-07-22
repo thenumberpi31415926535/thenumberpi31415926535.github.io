@@ -11,9 +11,8 @@ To answer some of the questions you may have about Discord.
 
 
 * [How to join Pi's Discord server](#how-to-join-pis-discord-server)
-* [How to adjust the volume of a user or a bot in a voice channel](#how-to-adjust-the-volume-of-a-user-or-a-bot-in-a-voice-channel)
-* [Check your audio settings](#check-your-audio-settings)
 * [Check your audio and mic settings](#check-your-audio-and-mic-settings)
+* [How to adjust the volume of a user or a bot in a voice channel](#how-to-adjust-the-volume-of-a-user-or-a-bot-in-a-voice-channel)
 
 
 
@@ -34,6 +33,24 @@ can not find it in your inbox.
 
 
 ***
+## Check your audio and mic settings ##
+[Table of Contents](#table-of-contents)
+
+1. Go to your *USER SETTINGS* and location *Voice & Video* under *APP SETTINGS* on
+your phone or PC.
+1. Ensure your *INPUT DEVICE* and *OUTPUT DEVICE* are correct.
+1. It's also a good idea to conduct a *MIC TEST*.
+1. *INPUT MODE* should be set to _Voice Activity_. 
+
+PC: Locate *USER SETTINGS* on the bottom left of your app.
+![PC](/assets/Discord-PC-User-Setting.png)
+![PC](/assets/Discord-PC-Voice-Setting.png)
+Phone: Swipe left to right to bring up channel list, you should locate your
+user icon on the lower right.
+![Phone](/assets/Discord-phone-voice-setting.gif)
+
+
+***
 ## How to adjust the volume of a user or a bot in a voice channel ##
 [Table of Contents](#table-of-contents)
 
@@ -51,19 +68,3 @@ User Menu on a phone
 
 
 
-***
-## Check your audio and mic settings ##
-[Table of Contents](#table-of-contents)
-
-1. Go to your *USER SETTINGS* and location *Voice & Video* under *APP SETTINGS* on
-your phone or PC.
-1. Ensure your *INPUT DEVICE* and *OUTPUT DEVICE* are correct.
-1. It's also a good idea to conduct a *MIC TEST*.
-1. *INPUT MODE* should be set to _Voice Activity_. 
-
-PC: Locate *USER SETTINGS* on the bottom left of your app.
-![PC](/assets/Discord-PC-User-Setting.png)
-![PC](/assets/Discord-PC-Voice-Setting.png)
-Phone: Swipe left to right to bring up channel list, you should locate your
-user icon on the lower right.
-![Phone](/assets/Discord-phone-voice-setting.gif)
