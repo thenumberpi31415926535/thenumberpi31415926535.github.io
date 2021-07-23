@@ -90,5 +90,4 @@ User Menu on a phone
    yourslef.
 
 Assign roles on a phone
-![Phone](/assets/Discord-Phone-roles.gif)
-
+![Phone](/assets/Discord-phone-roles.gif)
