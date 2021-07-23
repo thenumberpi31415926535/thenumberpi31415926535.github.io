@@ -37,7 +37,7 @@ can not find it in your inbox.
 ## How to sign up for events? ##
 [Table of Contents](#table-of-contents)
 
-1. Navigate to #annonucements channel in Discord.  Swipe from left to right to
+1. Navigate to #annonucements channel under *NOTICE BOARD* in Discord.  Swipe from left to right to
    get to channel list.
 1. Locate the event you wish to sign up.
 1. Interact to the green check at the bottom of the message.
