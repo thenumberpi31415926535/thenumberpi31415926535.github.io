@@ -14,6 +14,7 @@ To answer some of the questions you may have about Discord.
 * [How to sign up for events?](#how-to-sign-up-for-events)
 * [Check your audio and mic settings](#check-your-audio-and-mic-settings)
 * [How to adjust the volume of a user or a bot in a voice channel](#how-to-adjust-the-volume-of-a-user-or-a-bot-in-a-voice-channel)
+* [How to assign roles](#how-to-assign-roles)
 
 
 
@@ -80,5 +81,14 @@ User Menu on a phone
 ![Phone](/assets/Discord-phone-background-music.gif)
 
 
+***
+## How to assign roles ##
+[Table of Contents](#table-of-contents)
 
+1. Claim roles by locating #roles under *NOTICE BOARD*.
+1. Interact with the icons under each message will assign / unassign roles to
+   yourslef.
+
+Assign roles on a phone
+![Phone](/assets/Discord-Phone-roles.gif)
 
