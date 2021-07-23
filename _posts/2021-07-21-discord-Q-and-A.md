@@ -87,7 +87,7 @@ User Menu on a phone
 
 1. Claim roles by locating #roles under *NOTICE BOARD*.
 1. Interact with the icons under each message will assign / unassign roles to
-   yourslef.
+   yourself.
 
 Assign roles on a phone
 ![Phone](/assets/Discord-phone-roles.gif)
