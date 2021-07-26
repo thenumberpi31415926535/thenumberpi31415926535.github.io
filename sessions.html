@@ -32,11 +32,15 @@ title: Sessions
 
     </ol>
 </div>
-<h1 class="TitleSubText">Latest Sessions</h1> 
+<h1>Latest Sessions</h1> 
 <ul>
-  {% for session in site.sessions %}
+  {% assign sortedSessions = site.sessions | reverse %}
+  {% for session in sortedSessions %}
     <li>
-      <h2><a href="{{ session.url }}">{{ session.topic }}</a></h2>
+        <div>
+          <h2 class="TitleSubText"><a href="{{ session.url }}">{{ session.topic }}</a></h2>
+          <small> {{ session.date | date_to_string }} </small>
+        <div>
       {{ session.excerpt }}
     </li>
   {% endfor %}

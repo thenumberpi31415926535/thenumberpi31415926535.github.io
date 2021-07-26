@@ -5,8 +5,10 @@ title: Blog
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
+        <div>
+          <h2 class="TitleSubText"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <small> - {{ post.date | date_to_string }} </small>
+        <div>
     </li>
   {% endfor %}
 </ul>
