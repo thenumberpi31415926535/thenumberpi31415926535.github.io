@@ -11,25 +11,20 @@ title: Sessions
     Below is a listing of online English speaking sessions for people who are
     using English as a second language.
     
-    We use a <a href="{{ site.author.discord }}">Discord</a> server as our
+    We use a <a target="_blank" href="{{ site.author.discord }}">Discord</a> server as our
     online community.  To join the server you will need to:
     <ol>
-        <li>
-            Verify your Email with Discord.
-        </li>
-        <li>
-            Agree and abide to the rules on the server.
-        </li>
-        <li>
-            Claim roles to indicate your interest and level of participation in the #roles channel.
-        </li>
-        <li>
-            Sign up for events you are interested in #announcements.
-        </li>
-        <li>
-            Seek help in #general if you have any issues.
-        </li>
 
+
+        <li>
+            <a href="{% link _posts/2021-07-21-discord-Q-and-A.md %}#how-to-join-pis-discord-server">Join Pi's Discord server</a>
+        </li>
+        <li>
+            <a href="{% link _posts/2021-07-21-discord-Q-and-A.md %}#check-your-audio-and-mic-settings">Sign up for events</a>
+        </li>
+        <li>
+            <a href="{% link _posts/2021-07-21-discord-Q-and-A.md %}#how-to-sign-up-for-events">Check your audio and mic settings</a>
+        </li>
     </ol>
 </div>
 <h1>Latest Sessions</h1> 
@@ -39,7 +34,7 @@ title: Sessions
     <li>
         <div>
           <h2 class="TitleSubText"><a href="{{ session.url }}">{{ session.topic }}</a></h2>
-          <small> {{ session.date | date_to_string }} </small>
+          <small> created on {{ session.date | date_to_string }} </small>
         <div>
       {{ session.excerpt }}
     </li>
