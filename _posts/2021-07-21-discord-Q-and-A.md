@@ -38,11 +38,13 @@ can not find it in your inbox.
 ## How to sign up for events? ##
 [Table of Contents](#table-of-contents)
 
+1. [Join Pi's Discord server](#how-to-join-pis-discord-server)
 1. Navigate to #annonucements channel under *NOTICE BOARD* in Discord.  Swipe from left to right to
    get to channel list.
 1. Locate the event you wish to sign up.
 1. Interact to the green check at the bottom of the message.
 1. Verify if you are listed under attendees.
+1. This will unlock the topic rooms.
 
 Sign up for events on a phone
 ![Phone](/assets/Discord-phone-signup.gif)
