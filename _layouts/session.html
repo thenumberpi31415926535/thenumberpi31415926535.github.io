@@ -65,13 +65,13 @@ Hosts:
 <!-- about sign up Link -->
 {% if page.signUpLink %}
 <div>
-    Sign up Link: <a target="_blank" href="{{ page.signUpLink }}">{{ page.signUpLink }}</a>
+    <a target="_blank" href="{{ page.signUpLink }}">Sign up here</a>
 </div>
 {% endif %}
 <!-- about meeting Link -->
 {% if page.meetingLink %}
 <div>
-    Meeting Link: <a target="_blank" href="{{ page.meetingLink }}">{{ page.meetingLink }}</a>
+    <a target="_blank" href="{{ page.meetingLink }}">Meeting link</a>
 </div>
 {% endif %}
 <br>
@@ -80,12 +80,18 @@ Hosts:
   {{ content }}
   </div>
 
-
+  <br />
   <h1>Prerequisite</h1> 
   <div>
       Join Pi's Discord server at <a href="{{ site.author.discord }}">{{
-          site.author.discord }}</a> and sign up in
-      #announcements!
+          site.author.discord }}</a> and <a href="{% link
+      _posts/2021-07-21-discord-Q-and-A.md %}#how-to-sign-up-for-events">sign up in #announcements</a>
+  </div>
+  <br />
+  <div>
+      This session is also listed under the <a href="{{ site.author.oelc }}">O.E.L.C</a> <a href="{{
+                                                     site.author.oelcCalendar }}">Talks</a>
+
   </div>
 </article>
 <div class="PageNavigation">

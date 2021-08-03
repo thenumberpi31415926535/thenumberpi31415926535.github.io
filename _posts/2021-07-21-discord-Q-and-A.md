@@ -43,12 +43,20 @@ can not find it in your inbox.
 1. Navigate to #annonucements channel under *NOTICE BOARD* in Discord.  Swipe from left to right to
    get to channel list.
 1. Locate the event you wish to sign up.
-1. Interact to the green check at the bottom of the message.
+1. Interact to the green tick (✅) at the bottom of each message regarding an event.
 1. Verify if you are listed under attendees.
 1. This will unlock the topic rooms.
 
 Sign up for events on a phone
 ![Phone](/assets/Discord-phone-signup.gif)
+
+Troubleshooting:
+1. Should I be concerned with *"Un oh, you don't have webhook permissions in any
+   server you're in.  Ask your server admin to give you the permission or ask
+them to come follow themselves!"*?
+Not at all, this error message will not affect you from signing up.
+![](/assets/Discord-PC-AnnouncementWebhookError.png)
+
 ***
 ## Check your audio and mic settings ##
 [Table of Contents](#table-of-contents)
