@@ -87,7 +87,6 @@ user icon on the lower right.
 User Menu on a PC
 ![PC](/assets/Discord-PC-Background-Music.png)
 User Menu on a phone
-![PC](/assets/Discord-PC-Background-Music.png)
 ![Phone](/assets/Discord-phone-background-music.gif)
 
 
