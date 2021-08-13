@@ -65,7 +65,9 @@ title: Sessions
                 {% assign time = session.time | date: '%F' %}
 
                     {% if time == thisDate %}
-                        <a href="{{ session.url }}"> {{ session.title }}</a>
+                    <div class="calendarTitle">
+                            <a href="{{ session.url }}"> {{ session.title }}</a>
+                    </div>
                     {% else %}
                     {% endif %}
               {% endfor %}
