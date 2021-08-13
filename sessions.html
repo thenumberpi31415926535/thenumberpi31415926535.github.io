@@ -35,7 +35,7 @@ title: Sessions
 <div>
   {% assign sortedSessions = site.sessions | sort: 'time' %}
 
-  {% assign calendar = "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday" | split: ','%}
+  {% assign calendar = "Mon,Tue,Wed,Thu,Fri,Sat,Sun" | split: ','%}
   {% assign oneDayInSeconds = 86400  %}
   {% assign startDay = "today" | date: '%w' %}
   {% assign timespan = startDay | minus: 1 | times: oneDayInSeconds %}
