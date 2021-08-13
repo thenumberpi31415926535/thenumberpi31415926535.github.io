@@ -3,8 +3,8 @@ author: Pi
 hosts: 
     - Bones
     - Pi
-topic: IT'S SPOOKY SEASON!
-time: 9 pm 11th August 2021
+topic: "IT'S SPOOKY SEASON!"
+time: 2021-08-11 9pm
 meetingLink: https://discord.gg/wvpQcjqdSS"
 signUpLink: https://discordapp.com/channels/830770544253206538/856580095464046620/874755114425016320
 ---

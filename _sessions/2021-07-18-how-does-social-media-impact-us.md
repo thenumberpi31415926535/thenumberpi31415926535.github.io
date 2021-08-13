@@ -7,7 +7,7 @@ featuring:
     - Momo
     - Tiffy
 topic: "How does social media impact us? (feat. Momo and Tiffy)"
-time: "8.30 pm 21st July 2021"
+time: 2021-07-21 8.30 PM
 meetingLink: "https://discord.gg/wvpQcjqdSS" 
 signUpLink: "https://discordapp.com/channels/830770544253206538/856580095464046620/866320996235739136"
 ---

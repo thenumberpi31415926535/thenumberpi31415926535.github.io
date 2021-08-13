@@ -3,6 +3,8 @@
 # Setup
 title:               "Pi"
 tagline:             'Minimal version of a blog.'
+timezone: Asia/Taipei
+#timezone: Australia/Melbourne
 
 # About/contact
 author:
@@ -28,23 +30,28 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+      author: "Pi"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+      author: "Pi"
   - scope:
       path: ""
       type: "sessions"
     values:
       layout: "session"
+      author: "Pi"
   - scope:
       path: ""
     values:
       layout: "default"
+      author: "Pi"
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+  - classifier-reborn  

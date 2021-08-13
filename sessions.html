@@ -27,16 +27,87 @@ title: Sessions
         </li>
     </ol>
 </div>
+<br />
+<br />
+<br />
+<br />
+<h1>Upcoming sessions</h1> 
+<div>
+  {% assign sortedSessions = site.sessions | sort: 'time' %}
+
+  {% assign calendar = "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday" | split: ','%}
+  {% assign oneDayInSeconds = 86400  %}
+  {% assign startDay = "today" | date: '%w' %}
+  {% assign timespan = startDay | minus: 1 | times: oneDayInSeconds %}
+  {% assign monday = "today" | date: '%s' | minus: timespan | date: '%F' %}
+  {% assign fourWeeksInSeconds = 4 | times: 7 | times: oneDayInSeconds %}
+  {% assign endDateInSeconds = monday | date: '%s' | plus: fourWeeksInSeconds %}
+  {% assign endDate = endDateInSeconds | date: '%F' %}
+
+  {% assign day = monday  %}
+  {% assign dayInSeconds = monday | date: '%s' %}
+
+  <table>
+  {% for title in calendar %}
+          <td>
+              {{ title }}
+          </td>
+  {% endfor %}
+  {% for week in (1..4) %}
+      <tr>
+      {% for day in (1..7) %}
+          <td>
+              {% assign thisDate = dayInSeconds | date: '%F' %}
+              {% assign hasEvent = false %}
+              {% for session in sortedSessions %}
+                {% assign time = session.time | date: '%F' %}
+
+                {% capture event %}
+                    {% if time == thisDate %}
+                        {% assign hasEvent = true %}
+                        <a href="{{ session.url }}"> {{ session.title }}</a>
+                    {% else %}
+                    {% endif %}
+                {% endcapture %}
+              {% endfor %}
+                  {% if hasEvent == true %}
+                      <div class="calendarDateHL">
+                          {{ dayInSeconds | date: '%e %b'  }}
+                      </div>
+                      <div class="calendarTitle">
+                          {{ event }}
+                      <div>
+                  {% else%}
+                      <div class="calendarDate">
+                          {{ dayInSeconds | date: '%e'  }}
+                      </div>
+                  {% endif %}
+          {% assign dayInSeconds = dayInSeconds | plus: oneDayInSeconds %}
+          </td>
+      {% endfor %}
+      </tr>
+  {% endfor %}
+  </table>
+
+<br />
+<br />
+<br />
+<br />
+
 <h1>Latest Sessions</h1> 
+</div>
 <ul>
-  {% assign sortedSessions = site.sessions | reverse %}
+  {% assign sortedSessions = site.sessions | sort: 'time' | reverse %}
   {% for session in sortedSessions %}
     <li>
         <div>
-          <h2 class="TitleSubText"><a href="{{ session.url }}">{{ session.topic }}</a></h2>
-          <small> created on {{ session.date | date_to_string }} </small>
+            <h2 class="TitleSubText"><a href="{{ session.url }}">
+                  {{ session.topic }}</a></h2>
+        </div>
         <div>
-      {{ session.excerpt }}
+            {{ session.time | date: '%A, %d %B'}} {{ session.time | date: '%I:%M %p' }} 
+        </div>
+
     </li>
   {% endfor %}
 </ul>

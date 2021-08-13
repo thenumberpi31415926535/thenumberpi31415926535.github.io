@@ -5,7 +5,7 @@ hosts:
     - Momo
     - Duke
 topic: "Tokyo 2020 Olympics & Simone Biles"
-time: "8pm 10th August 2021"
+time: 2021-08-10 8PM
 meetingLink: "https://discord.gg/vE7QUXGDnS" 
 signUpLink: "https://hissing-panama-209.notion.site/Tokyo-2020-Olympics-Simone-Biles-3b52252db6d444b8a8cc624475a328f9"
 ---
