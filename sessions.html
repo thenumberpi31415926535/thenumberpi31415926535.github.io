@@ -58,30 +58,17 @@ title: Sessions
       {% for day in (1..7) %}
           <td>
               {% assign thisDate = dayInSeconds | date: '%F' %}
-              {% assign hasEvent = false %}
+              <div class="calendarDate">
+                  {{ dayInSeconds | date: '%e'  }}
+              </div>
               {% for session in sortedSessions %}
                 {% assign time = session.time | date: '%F' %}
 
-                {% capture event %}
                     {% if time == thisDate %}
-                        {% assign hasEvent = true %}
                         <a href="{{ session.url }}"> {{ session.title }}</a>
                     {% else %}
                     {% endif %}
-                {% endcapture %}
               {% endfor %}
-                  {% if hasEvent == true %}
-                      <div class="calendarDateHL">
-                          {{ dayInSeconds | date: '%e %b'  }}
-                      </div>
-                      <div class="calendarTitle">
-                          {{ event }}
-                      <div>
-                  {% else%}
-                      <div class="calendarDate">
-                          {{ dayInSeconds | date: '%e'  }}
-                      </div>
-                  {% endif %}
           {% assign dayInSeconds = dayInSeconds | plus: oneDayInSeconds %}
           </td>
       {% endfor %}
