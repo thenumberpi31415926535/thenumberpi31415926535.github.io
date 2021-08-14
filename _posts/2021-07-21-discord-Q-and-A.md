@@ -67,6 +67,7 @@ your phone or PC.
 1. It's also a good idea to conduct a *MIC TEST*.
 1. *INPUT MODE* should be set to _Voice Activity_. 
 
+
 PC: Locate *USER SETTINGS* on the bottom left of your app.
 ![PC](/assets/Discord-PC-User-Setting.png)
 ![PC](/assets/Discord-PC-Voice-Setting.png)
@@ -74,6 +75,16 @@ Phone: Swipe left to right to bring up channel list, you should locate your
 user icon on the lower right.
 ![Phone](/assets/Discord-phone-voice-setting.gif)
 
+Have you granted Discord permission to use your Microphone? 
+
+Discord will not work if it does not have permission to use your Microphone.
+
+Whether you are using an App on the phone or PC, it's important to grant
+permission for Discord to use your Microphone in order to join our chat.  If
+you are using a browser, I recommend using an app, otherwise, ensure you are
+using something like Chrome and grant permission for Discord to use your
+microphone.
+![](/assets/Discord-Phone-App-Permission.gif)
 
 ***
 ## How to adjust the volume of a user or a bot in a voice channel ##
