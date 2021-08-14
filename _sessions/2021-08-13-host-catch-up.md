@@ -3,7 +3,7 @@ hosts:
     - Bones
     - Pi
 topic: "Host catch up"
-time: 2021-07-17 8 PM
+time: 2021-08-17 8 PM
 meetingLink: https://discord.gg/vE7QUXGDnS
 ---
 
