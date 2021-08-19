@@ -63,21 +63,23 @@ Not at all, this error message will not affect you from signing up.
 
 1. Go to your *USER SETTINGS* and location *Voice & Video* under *APP SETTINGS* on
 your phone or PC.
-1. Ensure your *INPUT DEVICE* and *OUTPUT DEVICE* are correct.
-1. It's also a good idea to conduct a *MIC TEST*.
-1. *INPUT MODE* should be set to _Voice Activity_. 
-
-
-PC: Locate *USER SETTINGS* on the bottom left of your app.
+For PC users: Locate *USER SETTINGS* on the bottom left of your app.  This is
+what your bottom left corner looks like.
 ![PC](/assets/Discord-PC-User-Setting.png)
+This is what the settings will look like.
 ![PC](/assets/Discord-PC-Voice-Setting.png)
-Phone: Swipe left to right to bring up channel list, you should locate your
+For phone users: Swipe from left to right to bring up the channel list, you should locate your
 user icon on the lower right.
 ![Phone](/assets/Discord-phone-voice-setting.gif)
-
-Have you granted Discord permission to use your Microphone? 
-
-Discord will not work if it does not have permission to use your Microphone.
+1. Ensure your *INPUT DEVICE* and *OUTPUT DEVICE* are correct.
+1. It's also a good idea to conduct a *MIC TEST* using the sensitivity bar
+   while you are here.
+1. *INPUT MODE* should be set to _Voice Activity_, this will make it a much
+   more relaxing experience. 
+1. Fundamentally, above are the easy steps to follow when it comes to configure
+   your discord setting inside the application.  However, it's possible that
+the application, such as Discord, does not have permission to use your
+microphone without your consent.  
 
 Whether you are using an App on the phone or PC, it's important to grant
 permission for Discord to use your Microphone in order to join our chat.  If
