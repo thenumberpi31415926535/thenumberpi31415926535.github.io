@@ -107,7 +107,7 @@ User Menu on a phone
 ## How to assign roles ##
 [Table of Contents](#table-of-contents)
 
-1. Claim roles by locating typing command `pi#claimroles` in any text channel.
+1. Claim roles by typing command `pi#claimroles` in any text channel.
 1. Interact with the icons under the message to assign roles to yourself.
 1. You are able to unassign roles via command `pi#removeroles`
 
